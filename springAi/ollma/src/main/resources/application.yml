@@ -1,0 +1,18 @@
+server:
+  port: 8888
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: utf-8
+spring:
+  application:
+    name: springaialibaba01
+  ai:
+    dashscope:
+      api-key: x'x'x
+    ollama:
+      base-url: http://localhost:11434xxx
+      chat:
+        model: qwen3.5:4b
+

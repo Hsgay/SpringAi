@@ -1,0 +1,17 @@
+server:
+  port: 8888
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: utf-8
+spring:
+  application:
+    name: springaialibaba01
+  ai:
+    dashscope:
+      api-key: sk-c43a64b22d4247be99010e2c4c080d37
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
+      chat:
+        options:
+          model: qwen3-max
